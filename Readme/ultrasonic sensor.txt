@@ -1,0 +1,35 @@
+ultrasonic sensor 
+
+Functions:
+            digitalWrite(trig,LOW);         // CLEAR THE TRIGERPIN 
+            digitalWrite(trig,HIGH);        // SET THE TRIGER PIN ON HIGH STATE FOR 10 MICRO SECONDS
+          
+            pinMode(echo,INPUT);            // set the echo pin as input 
+ 
+	
+pins:
+    SENSOR PIN    NODEMCU PIN
+    
+     Trigger    - D2
+     Echo       - D3
+     VCC        - 3.3V
+     GND        - GND
+
+ 
+Description:
+
+	This sensor can be used to test ultrasonic sensor measure distance by using ultrasonic waves, in this Instructable we will learn about HC-SR04 widelyknow
+	as Ultrasonic Sensor,how it works and how to interface with the NodeMCU.And also how to measure the distance using HC-SR04.The sensor head emits an ultrasonic
+	wave and receives the wave reflected back from the target.
+
+	An Ultrasonic sensor is a device that can measure the distance of an object by using sound waves. It measures distance by sending out a sound wave at a specific
+	frequency and waits for that sound wave to bounce back.By recording thetime taken between the sound wave being generated and the sound wave bouncing back, it 
+	is possible to calculate the distance between the sensor and the object.
+   
+	
+
+
+
+
+
+

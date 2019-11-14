@@ -1,0 +1,48 @@
+The KY-012 Active Buzzer
+	
+Functions:
+
+	  if(c2w_tesla_ldr_val==1){                                          // check the condition of LDR sensor if high then buzzer will off
+    
+   		 digitalWrite(c2w_tesla_buzzer, HIGH);                            // off the buzzer
+  	  	 Serial.println(" lid close");  
+    
+  	}
+  
+  	  else  {
+    
+  	    	digitalWrite(c2w_tesla_buzzer, LOW);                           // on the buzzer
+      		Serial.println("lid open");
+          
+  	}
+
+
+
+Pins:
+	GND-ground
+	Vcc-3.3v
+	Signal-Input
+
+
+Connetions:
+	
+	NodeMCU:
+		
+		GND-ground
+		Vcc-3.3v
+		
+
+Working:
+
+	Description:
+
+	There are two types are buzzers that are commonly available. The one shown here is a simple buzzer which when powered will make a ContinuousBeeeeeeppp.... sound,
+	the other type is called a readymade buzzer which will look bulkier than this and will produce a Beep. Beep. Beep.Sound due to theinternal oscillating circuit 
+	present inside it. 
+
+	This buzzer can be used by simply powering it using a DC power supply ranging from 4V to 9V. A simple 9V battery can also be used, but it is recommended to use a 
+	regulated +5V or +6V DC supply. The buzzer is normally associated with a switching circuit to turn ON or turn OFF the buzzer at required time and require interval.
+
+ 
+		
+

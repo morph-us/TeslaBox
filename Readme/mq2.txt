@@ -1,0 +1,41 @@
+MQ2 Sensor
+
+Library used:
+	
+	#include <MQ2.h>
+
+Functions:
+        
+	 
+	MQ2 mq2(c2w_tesla_mq2_pin);
+
+	float* values= mq2.read(true);    
+
+	
+Pins:
+	GND-GROUND
+	Vcc-3.3
+	AO-ANALOG PIN
+
+Connetions:
+	
+	NodeMCU:
+                                
+             SENSOR PIN    NODEMCU PIN
+ 		GND     -  ground
+		Vcc     -  3.3v
+		A0      -  A0
+
+Description:
+
+	MQ2 is one of the commonly used gas sensors in MQ sensor series. It is a Metal Oxide Semiconductor (MOS) type Gas Sensor also known as Chemiresistors as
+	the detection is based upon change of resistance of the sensing material when the Gas comes in contact with the material. Using a simple voltage divider 
+	network, concentrations of gas can be detected.
+
+	MQ2 Gas sensor works on 5V DC and draws around 800mW. It can detect LPG, Smoke, Alcohol, Propane, Hydrogen, Methane and Carbon Monoxide concentrations anywhere
+	from 200 to 10000ppm.To calibrate the gas sensor you can hold the gas sensor near smoke/gas you want to detect and keep turning the potentiometer until the Red LED
+ 	on the module starts glowing. Turn the screw clockwise to increase sensitivity or anticlockwise to decrease se
+
+
+
+
